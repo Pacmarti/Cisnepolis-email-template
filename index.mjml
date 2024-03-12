@@ -1,0 +1,127 @@
+<mjml>
+    <mj-head>
+        <mj-title>Cisnepolis Cartelera</mj-title>
+        <mj-style>
+            @media (max-width: 480px) {
+                #movietitle {
+                    display: none;
+                    visibility: hidden;
+                }           
+            }
+        </mj-style>
+        <mj-attributes>
+            <mj-section padding="0"/>
+            <mj-image padding="0"/>
+            <mj-text padding="0" align="center"/>
+
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#808080">
+        <mj-section background-color="#002069">
+            <mj-column width="100%">
+                <mj-image src="https://i.imgur.com/Po5RXxD.png" alt="logo cisnepolis header" width="160px" padding="20px"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#002069">
+            <mj-column width="100%">
+                <mj-text font-size="36px" line-height="46px" text-transform="uppercase" color="#ffffff" font-family="Verdana" font-weight="bold" padding="36px 40px 36px 40px" >
+                    No hay truco, </br> sólo trato
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#002069">
+            <mj-column width="100%">
+                <mj-text color="#ffffff" font-size="16px" line-height="25px" padding="0 40px 30px" align="left">
+                    Lorem ipsum dolor sit amet consectetur adipiscing elit <span style="color: #FECA30; font-weight:bold;">felis montes dapibus, erat ad luctus</span>, mauris mus metus lacinia dictum urna.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#002069">
+            <mj-column width="100%">
+                <mj-button background-color="#FECA30" color="#002069" font-size="18px" href="#" width="80%">
+                        Actualizar y obtener descuento
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#002069" padding-top="30px">
+            <mj-column width="100%" padding="0">
+                <mj-image src="https://i.imgur.com/mdT8e5D.png" href="#"/>
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-divider border-width="5px" border-color="lightgrey" padding="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#ffffff" padding="30px 20px">
+            <mj-column width="100%">
+                <mj-text align="center" font-size="18px" line-height="25px" padding="0 20px 30px" font-weight="5400">
+                    Peliculas en carterlera
+                </mj-text>    
+            </mj-column>
+            <mj-column width="33%" padding="10px">
+                <mj-image src="https://i.imgur.com/msdv2de.jpg " alt="" />
+                <mj-text font-size="13px" line-height="20px" align="left">
+                    <p id="movietitle" padding="0">Los juegos del hambre: Balada de pajaros cantores y serpientes</p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="33%" padding="10px">
+                <mj-image src="https://i.imgur.com/fNcQRnj.jpg" alt="" />
+                <mj-text font-size="13px" line-height="20px" align="left">
+                    <p id="movietitle" padding="0">Troll 3: Se armo la Banda</p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="33%" padding="10px">
+                <mj-image src="https://i.imgur.com/gI5LRF8.jpg" alt="" />
+                <mj-text font-size="13px" line-height="20px" align="left" >
+                    <p id="movietitle" padding="0">Pobres Criaturas</p>
+                </mj-text>
+            </mj-column>
+            <mj-column width="100%">
+                <mj-text align="center" font-size="16px" line-height="25px" padding="20px 0 0">
+                    <a href="https://www.cisnepolis.com" style="color: #002069;">Ver Cartelera Completa</a>
+                </mj-text>    
+            </mj-column>
+        </mj-section>
+        <mj-section>
+            <mj-column>
+                <mj-divider border-width="20px" border-color="lightgrey" padding="0"/>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#222222">
+            <mj-column width="100%">
+                <mj-table padding="10px 20px">
+                    <tr>
+                        <td>
+                            <img src="https://i.imgur.com/7abKNGa.png" width="50%" >
+                        </td>
+                        <td style="padding:10px" align="right">
+                            <img src="https://i.imgur.com/TFENNWQ.png" width="30px" >
+                        </td>
+                        <td style="padding:10px" align="right">
+                            <img src="https://i.imgur.com/3vKabdS.png" width="30px" >
+                        </td>
+                        <td style="padding:10px" align="right">
+                            <img src="https://i.imgur.com/1s2ARmX.png" width="30px" >
+                        </td>
+                    </tr>
+                </mj-table>
+            </mj-column>          
+        </mj-section>
+        <mj-section background-color="lightgrey">
+            <mj-column width="100%">
+                <mj-text padding="36px 20px 20px">
+                Cont&aacute;ctenos sin costo desde M&eacute;xico 800-000-0000   |  dudas@cisnepolis.com <br /><br />
+                Cisn&eacute;polis, Mz. 53 L 69 Secc. A, Zona Hotelera, 77500 Canc&uacute;n, Q. Roo, M&eacute;xico.<br /><br />
+                Usted est&aacute; recibiendo este correo por haberse registrado para recibir noticias o promociones de Cisn&eacute;polis. 
+                </mj-text>
+                <mj-text padding="0 20px 30px">
+                <a href="#" style="color: black; font-weight:500;">Modificar Perfil</a>   -   <a href="#" style="color: black; font-weight:500;">Darse de Baja</a>   -    <a href="#" style="color: black; font-weight:500;">Pol&iacute;tica de Privacidad</a><br /><br />
+                © Copyright 2023 Cisn&eacute;polis. Todos los Derechos Reservados
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
+
+<!--https://www.youtube.com/watch?v=WpgfFlKKdKY&ab_channel=SalesforceMarketingCloudCanc%C3%BAn-->
